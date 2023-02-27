@@ -28,5 +28,8 @@
     "sass": "^1.52.3",
     "webpack": "^5.73.0",
     "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "caniuse-lite": "^1.0.30001458"
   }
 }

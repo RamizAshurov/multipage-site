@@ -2,8 +2,8 @@
     font-family: "Heebo";
     src: local("Heebo Regular"),
       local("Heebo-Regular"),
-      url("/fonts/Heebo-Regular.woff2") format("woff2"),
-      url("/fonts/Heebo-Regular.woff") format("woff");
+      url("../fonts/Heebo-Regular.woff2") format("woff2"),
+      url("../fonts/Heebo-Regular.woff") format("woff");
     font-style: normal;
     font-weight: 400;
   }
@@ -12,8 +12,8 @@
     font-family: "Heebo";
     src: local("Heebo Medium"),
       local("Heebo-Medium"),
-      url("/fonts/Heebo-Medium.woff2") format("woff2"),
-      url("/fonts/Heebo-Medium.woff") format("woff");
+      url("../fonts/Heebo-Medium.woff2") format("woff2"),
+      url("../fonts/Heebo-Medium.woff") format("woff");
     font-style: normal;
     font-weight: 500;
   }
@@ -22,8 +22,8 @@
     font-family: "Heebo";
     src: local("Heebo Bold"),
       local("Heebo-Bold"),
-      url("/fonts/Heebo-Bold.woff2") format("woff2"),
-      url("/fonts/Heebo-Bold.woff") format("woff");
+      url("../fonts/Heebo-Bold.woff2") format("woff2"),
+      url("../fonts/Heebo-Bold.woff") format("woff");
     font-style: normal;
     font-weight: 700;
   }
@@ -32,8 +32,8 @@
     font-family: "Heebo";
     src: local("Heebo Black"),
       local("Heebo-Black"),
-      url("/fonts/Heebo-Black.woff2") format("woff2"),
-      url("/fonts/Heebo-Black.woff") format("woff");
+      url("../fonts/Heebo-Black.woff2") format("woff2"),
+      url("../fonts/Heebo-Black.woff") format("woff");
     font-style: normal;
     font-weight: 900;
   }
