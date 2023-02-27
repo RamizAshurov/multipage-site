@@ -1,0 +1,46 @@
+.posts-section {
+    background-color: #EDF7FA;
+    &__container {
+        padding-bottom: 30px;
+    }
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+    }
+    &__more {
+        color: $secondary;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    &__body {
+        display: flex;
+        margin: 0 -10px;
+    }
+    &__post {
+        box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+        margin: 0 10px;
+        padding: 24px 23px 30px;
+    }
+    @include tablet {
+        &__header {
+            justify-content: center;
+            height: auto;
+        }
+        &__more {
+            display: none;
+        }
+        &__body {
+            flex-direction: column;
+            margin: 0;
+        }
+        &__post {
+            margin: 0 0 15px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

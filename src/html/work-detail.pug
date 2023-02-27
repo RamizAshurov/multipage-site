@@ -1,0 +1,26 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Work Detail 
+        link(rel="stylesheet", href="/css/work-detail.min.css")
+    body 
+        include includes/header.pug
+        main 
+            section.work-detail
+                .container.container_small 
+                    h1.work-detail__title.title Designing Dashboards with usability in mind
+                    .work-detail__info 
+                        .work-detail__date.date-button.date-button_color_red 2020
+                        .work-detail__category Dashboard, User Experience Design
+                    p.work-detail__text.text Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    img(src="/img/work-detail_01.png", alt="work-detail_01").work-detail__img
+                    .work-detail__heading-1 Heading 1
+                    .work-detail__heading-2 Heading 2
+                    p.work-detail__text.text Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    img(src="/img/work-detail_02.png", alt="work-detail_02").work-detail__img
+                    img(src="/img/work-detail_03.png", alt="work-detail_03").work-detail__img
+        include includes/footer.pug
+        script(src="js/app.min.js")

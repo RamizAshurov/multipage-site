@@ -1,0 +1,70 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/css/index.min.css")
+        title Document
+    body 
+        include includes/header.pug
+        section.hero-section
+            .hero-section__container.container
+                .hero-section__info
+                    h1.hero-section__title.title Hi, I am John,<br>Creative Technologist
+                    p.hero-section__text.text Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    a(href="#").hero-section__link Download Resume
+                .hero-section__avatar
+                    img(src="/img/avatar.jpg", alt="avatar")
+        section.posts-section 
+            .posts-section__container.container 
+                .posts-section__header 
+                    h3.posts-section__title.section-title Recent posts
+                    a(href="/blog.html").posts-section__more View all
+                .posts-section__body 
+                    article.posts-section__post.post
+                        h4.post__title Making a design system from scratch
+                        .post__desc 
+                            span.post__date 12 Feb 2020
+                            span.post__category Design, Pattern
+                        p.post__text Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    article.posts-section__post.post
+                        h4.post__title Creating pixel perfect icons in Figma
+                        .post__desc 
+                            span.post__date 12 Feb 2020
+                            span.post__category Design, Pattern
+                        p.post__text Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        section.works-section 
+            .works-section__container.container 
+                .works-section__header 
+                    .works-section__title.section-title Featured works
+                .works-section__body
+                    article.works-section__work.work
+                        a(href="/work-detail.html").work__img 
+                            img(src="/img/work_01.png", alt="work-01")
+                        .work__info 
+                            .h4.work__title Designing Dashboards
+                            .work__desc 
+                                span.work__date 2020
+                                span.work__category Dashboard
+                            p.work__text.text Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    article.works-section__work.work
+                        a(href="/work-detail.html").work__img 
+                            img(src="/img/work_02.png", alt="work-02")
+                        .work__info 
+                            .h4.work__title Vibrant Portraits of 2020
+                            .work__desc 
+                                span.work__date 2018
+                                span.work__category Illustration
+                            p.work__text.text Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    article.works-section__work.work
+                        a(href="/work-detail.html").work__img 
+                            img(src="/img/work_03.png", alt="work-03")
+                        .work__info 
+                            .h4.work__title 36 Days of Malayalam type
+                            .work__desc 
+                                span.work__date 2018
+                                span.work__category Typography
+                            p.work__text.text Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        include includes/footer.pug
+        script(src="js/app.min.js")
